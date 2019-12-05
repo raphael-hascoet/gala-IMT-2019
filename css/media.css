@@ -1,0 +1,146 @@
+@media (max-width: 923px) {
+    .ticket-sale-point:nth-child(1) {
+        order: 2;
+    }
+
+    .ticket-sale-point:nth-child(2) {
+        order: 1;
+    }
+
+    .ticket-sale-point:nth-child(3) {
+        order: 3;
+    }
+
+    .ticket-sale-point:nth-child(4) {
+        display: flex;
+        order: 4;
+    }
+}
+
+@media (max-width: 850px) {
+    #animations .section-content {
+        text-align: right;
+    }
+
+    .animation-element h3:after {
+        width: 100%;
+    }
+
+    #contact-help {
+        width: 80%;
+    }
+
+    #contact-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    form {
+        width: 80%;
+        margin-right: 20px;
+    }
+
+    .icon {
+        margin-right: 40px;
+    }
+
+    #artists ul {
+        width: 40%;
+    }
+}
+
+@media (max-width: 660px) {
+    #animations .section-content {
+        text-align: justify;
+    }
+
+    #artists-logos {
+        width: 65%;
+    }
+
+    .ticket-sale-point:nth-child(4) {
+        display: none;
+    }
+
+    #faq {
+        flex-direction: column;
+    }
+
+    #faq-content {
+        width: 100%;
+    }
+
+    #faq-content section {
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+    }
+
+    #faq-content h2 {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    #faq-content h2.center:after {
+        left: calc(50% - 42px);
+    }
+
+    #faq-content h2+ul {
+        width: 100%;
+    }
+
+    #contact-help {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 430px) {
+    #menu-button {
+        top: 15px;
+        right: 20px;
+    }
+
+    #artists-logos {
+        padding: 0;
+        width: 70%;
+    }
+
+    .animation-nav {
+        padding: 0;
+    }
+
+    #animations .section-content {
+        justify-content: center;
+    }
+
+    #animation-description {
+        width: 200px;
+    }
+
+    #faq-content {
+        padding: 1em 0;
+    }
+
+    #faq-content h2 {
+        width: 85%;
+    }
+
+    #faq h2+ul {
+        margin: 1em 0;
+    }
+
+    #faq-content ul {
+        width: 85%;
+        text-align: left;
+    }
+
+    .contact-info-element:not(.social-media) {
+        padding: 0;
+        margin: 1em 0;
+    }
+
+    .icon {
+        margin-right: 20px;
+    }
+}
